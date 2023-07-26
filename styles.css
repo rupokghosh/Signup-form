@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin:0;
+    display: flex;
+     flex: 1 1 auto;
+}
+#sidebar{
+    min-height: 100vh;
+    min-width: 30%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+    font-size: 50px;
+}
+#logo{
+    
+}
+#content{
+    min-height: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#text{
+    font-size: 24px;
+}
