@@ -1,39 +1,48 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=REM&display=swap');
+
 body{
     padding: 0;
     margin:0;
     display: flex;
-     flex: 1 1 auto;
+    flex: 1 1 auto;
+    font-family: 'REM', sans-serif;
 }
 #sidebar{
     min-width: 30%;
-    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.unsplash.com/photo-1517466787929-bc90951d0974?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=686&q=80");
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding-top: 10%;
     flex: 1 1 auto;
     font-size: 50px;
+    color: yellow;
+    font-weight: bold;
 }
 #logo{
 
 }
 #content{
-    background-color: aqua;
     display: flex;
     flex: 1 1 auto;
     flex-direction: column;
     align-items: flex-start;
 }
 #text{
-    background-color: red;
+    background-color: #A50044;
     font-size: 36px;
-    min-height: 40vh;
+    min-height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15px;
 }
 #form-wrapper{
-min-height: 40vh;
+    background-color: #A50044;
+    min-height: 40vh;
 }
 #form{
     display: flex;
@@ -47,11 +56,26 @@ min-height: 40vh;
     flex-flow: column wrap;
     width: 40%;
     padding: 10px 10px 10px 35px;
+    gap: 6px;
 }
 #accountInfo{
-    background-color: aquamarine;
+    background-color: #004D98;
     min-width: 100%;
-    min-height: 20vh;
+    min-height: 30vh;
     font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+    padding-left: 35px;
+    padding-top: 30px;
+    ;
+}
+button{
+    max-width: 30%;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    background-color: #A50044;
     
 }
+
