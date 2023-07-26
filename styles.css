@@ -5,19 +5,19 @@ body{
      flex: 1 1 auto;
 }
 #sidebar{
-    min-height: 100vh;
     min-width: 30%;
     background-color: antiquewhite;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
+    padding-top: 10%;
     flex: 1 1 auto;
     font-size: 50px;
 }
 #logo{
-    
+
 }
 #content{
-    min-height: 100vh;
     background-color: aqua;
     display: flex;
     flex: 1 1 auto;
@@ -25,5 +25,33 @@ body{
     align-items: flex-start;
 }
 #text{
+    background-color: red;
+    font-size: 36px;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-wrapper{
+min-height: 40vh;
+}
+#form{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.elements{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    padding: 10px 10px 10px 35px;
+}
+#accountInfo{
+    background-color: aquamarine;
+    min-width: 100%;
+    min-height: 20vh;
     font-size: 24px;
+    
 }
