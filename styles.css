@@ -2,10 +2,9 @@
   @import url('https://fonts.googleapis.com/css2?family=REM&display=swap');
 
 body{
-    padding: 0;
-    margin:0;
+    padding: 0 0 0 0 ;
+    margin:0 0 0 0 ;
     display: flex;
-    flex: 1 1 auto;
     font-family: 'REM', sans-serif;
 }
 #sidebar{
@@ -27,10 +26,10 @@ body{
 }
 #content{
     display: flex;
-    flex-grow: 1;
     flex-direction: column;
-    align-items: flex-start;
-    min-width: 70%;
+    min-width: 60%;
+    padding: 0;
+    margin: 0;
 }
 #text{
     background-color: #A50044;
@@ -62,7 +61,6 @@ body{
 }
 #accountInfo{
     background-color: #004D98;
-    min-width: 100%;
     min-height: 20vh;
     font-size: 24px;
     display: flex;
@@ -72,7 +70,6 @@ body{
     gap: 25px;
     padding-left: 35px;
     padding-top: 30px;
-    ;
 }
 button{
     max-width: 25%;
