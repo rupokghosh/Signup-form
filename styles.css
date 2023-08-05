@@ -27,29 +27,31 @@ body{
 }
 #content{
     display: flex;
-    flex: 1 1 auto;
+    flex-grow: 1;
     flex-direction: column;
     align-items: flex-start;
+    min-width: 70%;
 }
 #text{
     background-color: #A50044;
     font-size: 36px;
     min-height: 30vh;
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: center;
     padding: 15px;
+    text-transform: uppercase;
 }
 #form-wrapper{
     background-color: #A50044;
-    min-height: 40vh;
+    min-height: 35vh;
 }
 #form{
     display: flex;
     flex-flow: row wrap;
     gap: 20px;
-   padding-top: 20px;
-   padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .elements{
     display: flex;
@@ -61,21 +63,24 @@ body{
 #accountInfo{
     background-color: #004D98;
     min-width: 100%;
-    min-height: 30vh;
+    min-height: 20vh;
     font-size: 24px;
     display: flex;
     flex-direction: column;
+    flex: 1 1 auto;
     justify-content: flex-start;
-    gap: 15px;
+    gap: 25px;
     padding-left: 35px;
     padding-top: 30px;
     ;
 }
 button{
-    max-width: 30%;
+    max-width: 25%;
     font-size: 1.5rem;
-    letter-spacing: 1px;
     background-color: #A50044;
+
     
 }
-
+a{
+    color: white;
+}
